@@ -13,12 +13,17 @@
     "prettier": "prettier --write"
   },
   "dependencies": {
+    "ant-design-vue": "^3.2.12",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.5",
+    "nprogress": "^0.2.0",
     "pinia": "^2.0.22",
     "vue": "^3.2.37",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@types/node": "^18.7.18",
+    "@types/nprogress": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "@vitejs/plugin-vue": "^3.1.0",
