@@ -57,9 +57,13 @@ const openChange = (val: string[]) => {
   }
 }
 const selectItem = (val: any) => {
-  const name = val.key;
+  let path = '';
+  val.keyPath.forEach((item: string) => {
+    path = path + '/' + item;
+  })
+  path = path.substring(1);
   router.push({
-    name
+    path
   })
 
 }
